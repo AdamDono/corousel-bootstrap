@@ -1,13 +1,14 @@
-*{
+
+
 body{
-    background-color: antiquewhite;
+    background-color: rgb(95, 110, 175);
+  
 }
 
-}
 
 .card{
-    background-color: rgb(169, 172, 175);
-    width: 70%;
+    background-color: #ffffff;
+    width: 50%;
     height: 600px;
  margin: 100px auto ;
 
@@ -18,9 +19,9 @@ margin: 20px 10px 20px 10px;
 font-weight: 600;
 }
 .btn{
-   
-   margin: 15px 100px;
-background-color: aqua;
+   margin-top: 15px;
+   margin-left: 90px;
+background-color: rgb(219, 226, 226);
 width: 80%;
 cursor: pointer;
 }
@@ -35,3 +36,10 @@ cursor: pointer;
     color: aliceblue;
 }
 
+#next-button{
+margin-top: 20px;
+margin-left: 350px;
+ width: 150px;
+border: 0;
+background-color: rgb(95, 110, 175);
+}
