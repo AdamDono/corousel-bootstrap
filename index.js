@@ -1,5 +1,7 @@
 //add a cost with a viriable
 
+//const { Button } = require("bootstrap");
+
 const questions = [{
     question: "whats the color of the sky?",
     answers:[
@@ -21,11 +23,9 @@ const questions = [{
 {Text: "blue", correct: false},
 {Text: "eve", correct: false},
 
-    ]
+ ]
 
-}
-
-,
+},
 
 //add the same question in the same format
 
@@ -39,9 +39,7 @@ const questions = [{
 
     ]
 
-}
-
-,
+},
 
 //add the same quest ion in the same format
 
@@ -59,3 +57,22 @@ const questions = [{
 
 
 ]; 
+
+
+const questionElement= document.getElementById('question');
+const answerButton= document.getElementById('answer-button');
+const nextButton= document.getElementById('next-button');
+
+let currentQuestionindex = 0;
+let score =0;
+
+
+//reset quiz answers evrytime the quiz starts 
+function startQuiz() {
+    let currentQuestionindex = 0;
+    let score =0;
+    nextButton.innerHTML = 'Next';
+    ShowQuestion();
+
+
+};
